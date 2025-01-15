@@ -2,7 +2,7 @@
 An Online Game Based off of the Board Game "Snakes and Ladders"
 
 HOW TO PLAY:
-This can be played by 1-4 players, but 3 or 4 is recommended.
+This can be played by 2-4 players, but 3 or 4 is recommended.
 Each player takes turns rolling a D6 (numbers 1-6) and going that many spaces.
 If the space the player lands on is a ladder, that player goes up the ladder.
 If the space is a snake, the player goes down the snake.
