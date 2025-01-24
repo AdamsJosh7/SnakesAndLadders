@@ -3,12 +3,6 @@ import java.util.*;
 public class SnakesAndLadders {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int board[] = new int[100];import java.util.*;
-import java.util.Random;
-
-public class SnakesAndLadders {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
 		int board[] = new int[100];
 		System.out.println("Input number of players(2-4): ");
 		int players = input.nextInt();
@@ -565,37 +559,4 @@ public class SnakesAndLadders {
 		}
 	}
 }
-}
-		System.out.println("Input number of players(2-4): ");
-		int players = input.nextInt();
-		if (players != 2 && players != 3 && players != 4) {
-			System.out.print("Please input a valid player amount(2-4):");
-			players = input.nextInt();
-		}
-		
-		if (players == 2) {
-			players2(board);
-		}
-		else if (players == 3) {
-			players3(board);
-		}
-		else if (players == 4) {
-			players4(board);
-		}
-		else {
-			System.out.print("Please input a valid player amount(2-4):");
-		}
-	}
-	public static void players2 (int[] board) {
-		int playerTurn = 0;
-		System.out.print("2 Player Game Selected");
-		// playerTurn is either 1 or 2
-	
-	}
-	public static void players3 (int[] board) {
-		
-	}
-	public static void players4 (int[] board) {
-		
-	}
 }
