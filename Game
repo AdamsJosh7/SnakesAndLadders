@@ -29,7 +29,7 @@ public class SnakesAndLadders {
 					player1space = 10;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player1space);
 				}
-				if (player1space == 34) {
+				if (player1space == 36) {
 					player1space = 6;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player1space);
 				}
@@ -104,7 +104,7 @@ public class SnakesAndLadders {
 					player2space = 10;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
-				if (player2space == 34) {
+				if (player2space == 36) {
 					player2space = 6;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
@@ -181,7 +181,7 @@ public class SnakesAndLadders {
 					player3space = 10;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
-				if (player3space == 34) {
+				if (player3space == 36) {
 					player3space = 6;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
@@ -258,7 +258,7 @@ public class SnakesAndLadders {
 					player4space = 10;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
 				}
-				if (player4space == 34) {
+				if (player4space == 36) {
 					player4space = 6;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
 				}
