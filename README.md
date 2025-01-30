@@ -9,6 +9,6 @@ If the space is a snake, the player goes down the snake.
 First player to land on the "100" space is declared the winner.
 
 SETUP:
-Declare the turn order in any way you fashion, then scroll and look at the game board below, this is the board, now open up
+Declare the turn order in any way you fashion, then scroll and look at the game board below, this is the board, now open up the "Game" file and input the code into a coderunner, run the code and then you can play the game!
 
 ![Screenshot 2025-01-15 at 1 48 36 PM](https://github.com/user-attachments/assets/7d6a77d8-147d-453a-8e27-b6fc9b63fef3)
