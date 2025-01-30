@@ -100,11 +100,11 @@ public class SnakesAndLadders {
 				int dice = random.nextInt(5) + 2;
 				player2space = player2space + dice;
 				System.out.println("You rolled a: " + dice + "! you are now on space: " + player2space);
-				if (player2space == 22) {
-					player2space = 20;
+				if (player2space == 32) {
+					player2space = 10;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
-				if (player2space == 24) {
+				if (player2space == 34) {
 					player2space = 6;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
@@ -113,11 +113,11 @@ public class SnakesAndLadders {
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
 				if (player2space == 62) {
-					player2space = 28;
+					player2space = 18;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
 				if (player2space == 88) {
-					player2space = 14;
+					player2space = 24;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
 				if (player2space == 95) {
@@ -128,23 +128,23 @@ public class SnakesAndLadders {
 					player2space = 78;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player2space);
 				}
-				if (player2space == 2) {
-					player2space = 28;
+				if (player2space == 1) {
+					player2space = 38;
 					System.out.println("You found a ladder! your new space is: " + player2space);
 				}
 				if (player2space == 4) {
-					player2space = 24;
+					player2space = 14;
 					System.out.println("You found a ladder! your new space is: " + player2space);
 				}
 				if (player2space == 8) {
-					player2space = 20;
+					player2space = 30;
 					System.out.println("You found a ladder! your new space is: " + player2space);
 				}
 				if (player2space == 28) {
 					player2space = 76;
 					System.out.println("You found a ladder! your new space is: " + player2space);
 				}
-				if (player2space == 22) {
+				if (player2space == 21) {
 					player2space = 42;
 					System.out.println("You found a ladder! your new space is: " + player2space);
 				}
@@ -152,7 +152,7 @@ public class SnakesAndLadders {
 					player2space = 67;
 					System.out.println("You found a ladder! your new space is: " + player2space);
 				}
-				if (player2space == 72) {
+				if (player2space == 71) {
 					player2space = 92;
 					System.out.println("You found a ladder! your new space is: " + player2space);
 				}
@@ -177,8 +177,8 @@ public class SnakesAndLadders {
 				dice = random.nextInt(6) + 1;
 				player3space = player3space + dice;
 				System.out.println("You rolled a: " + dice + "! you are now on space: " + player3space);
-				if (player3space == 33) {
-					player3space = 30;
+				if (player3space == 32) {
+					player3space = 10;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
 				if (player3space == 34) {
@@ -186,7 +186,7 @@ public class SnakesAndLadders {
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
 				if (player3space == 48) {
-					player3space = 36;
+					player3space = 26;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
 				if (player3space == 62) {
@@ -194,7 +194,7 @@ public class SnakesAndLadders {
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
 				if (player3space == 88) {
-					player3space = 34;
+					player3space = 24;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
 				if (player3space == 95) {
@@ -205,32 +205,32 @@ public class SnakesAndLadders {
 					player3space = 78;
 					System.out.println("Oops! you were attacked by a snake! your new space is: " + player3space);
 				}
-				if (player3space == 3) {
+				if (player3space == 1) {
 					player3space = 38;
 					System.out.println("You found a ladder! your new space is: " + player3space);
 				}
 				if (player3space == 4) {
-					player3space = 34;
+					player3space = 14;
 					System.out.println("You found a ladder! your new space is: " + player3space);
 				}
 				if (player3space == 8) {
 					player3space = 30;
 					System.out.println("You found a ladder! your new space is: " + player3space);
 				}
-				if (player3space == 38) {
+				if (player3space == 28) {
 					player3space = 76;
 					System.out.println("You found a ladder! your new space is: " + player3space);
 				}
-				if (player3space == 33) {
-					player3space = 43;
+				if (player3space == 21) {
+					player3space = 42;
 					System.out.println("You found a ladder! your new space is: " + player3space);
 				}
 				if (player3space == 50) {
 					player3space = 67;
 					System.out.println("You found a ladder! your new space is: " + player3space);
 				}
-				if (player3space == 73) {
-					player3space = 93;
+				if (player3space == 71) {
+					player3space = 92;
 					System.out.println("You found a ladder! your new space is: " + player3space);
 				}
 				if (player3space == 88) {
@@ -254,74 +254,74 @@ public class SnakesAndLadders {
 					dice = random.nextInt(6) + 1;
 					player4space = player4space + dice;
 					System.out.println("You rolled a: " + dice + "! you are now on space: " + player4space);
-					if (player4space == 44) {
-						player4space = 40;
-						System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
-					}
-					if (player4space == 44) {
-						player4space = 6;
-						System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
-					}
-					if (player4space == 48) {
-						player4space = 26;
-						System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
-					}
-					if (player4space == 62) {
-						player4space = 18;
-						System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
-					}
-					if (player4space == 88) {
-						player4space = 24;
-						System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
-					}
-					if (player4space == 95) {
-						player4space = 56;
-						System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
-					}
-					if (player4space == 97) {
-						player4space = 78;
-						System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
-					}
-					if (player4space == 4) {
-						player4space = 48;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space == 4) {
-						player4space = 44;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space == 8) {
-						player4space = 40;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space == 48) {
-						player4space = 76;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space == 44) {
-						player4space = 44;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space == 50) {
-						player4space = 67;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space == 74) {
-						player4space = 94;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space == 88) {
-						player4space = 99;
-						System.out.println("You found a ladder! your new space is: " + player4space);
-					}
-					if (player4space > 100) {
-						player4space = player4space - dice;
-						System.out.println("You went too high! Back to space: " + player4space);
-					}
-					if (player4space == 100) {
-						System.out.println("Player " + playerturn + " has won the game!");
-						break;
-					}
+				if (player4space == 32) {
+					player4space = 10;
+					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
+				}
+				if (player4space == 34) {
+					player4space = 6;
+					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
+				}
+				if (player4space == 48) {
+					player4space = 26;
+					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
+				}
+				if (player4space == 62) {
+					player4space = 18;
+					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
+				}
+				if (player4space == 88) {
+					player4space = 24;
+					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
+				}
+				if (player4space == 95) {
+					player4space = 56;
+					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
+				}
+				if (player4space == 97) {
+					player4space = 78;
+					System.out.println("Oops! you were attacked by a snake! your new space is: " + player4space);
+				}
+				if (player4space == 1) {
+					player4space = 38;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space == 4) {
+					player4space = 14;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space == 8) {
+					player4space = 30;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space == 28) {
+					player4space = 76;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space == 21) {
+					player4space = 42;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space == 50) {
+					player4space = 67;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space == 71) {
+					player4space = 92;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space == 88) {
+					player4space = 99;
+					System.out.println("You found a ladder! your new space is: " + player4space);
+				}
+				if (player4space > 100) {
+					player4space = player4space - dice;
+					System.out.println("You went too high! Back to space: " + player4space);
+				}
+				if (player4space == 100) {
+					System.out.println("Player " + playerturn + " has won the game!");
+					break;
+				}
 				playerturn = 1;
 			}
 		}
